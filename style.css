@@ -1,0 +1,460 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1350px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.header {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.menu-btn {
+    display: none;
+}
+
+.logo-site {
+    margin-left: 140px;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin-left: 58px;
+    display: flex;
+    gap: 32px;
+    padding-top: 17px;
+}
+
+
+.content {
+    display: flex;
+}
+
+.hero-btn {
+    background: #FCB72B;
+    color: #FFF;
+    text-align: center;
+    font-family: "Space Mono";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    width: 180px;
+    height: 53px;
+    border: 3px solid #FCB72B;
+    cursor: pointer;
+    margin-left: 260px;
+    margin-top: 40px;
+}
+
+.facility-btn {
+    background: #FCB72B;
+    color: #FFF;
+    text-align: center;
+    font-family: "Space Mono";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    width: 180px;
+    height: 53px;
+    border: 3px solid #FCB72B;
+    cursor: pointer;
+}
+
+.facility-btn:hover {
+    background-color: transparent;
+    transition: 0.5s ease;
+    color: #FCB72B;
+}
+
+.header-link:hover {
+    color: #FCB72B;
+    transition: 0.5s ease;
+}
+
+.get-btn {
+    margin-left: auto;
+    background: #FCB72B;
+    color: #FFF;
+    text-align: center;
+    font-family: "Space Mono";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    width: 180px;
+    height: 53px;
+    border: 3px solid #FCB72B;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    background-color: transparent;
+    transition: 0.5s ease;
+    color: #FCB72B;
+}
+
+.header-link {
+    text-decoration: none;
+    color: #939CAA;
+    font-family: "Space Mono";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.get-btn:hover {
+    background-color: transparent;
+    transition: 0.5s ease;
+    color: #FCB72B;
+}
+
+.hero-line {
+    position: relative;
+    top: 212px;
+}
+
+.hero {
+    background-image: url(./Img/Bitmap.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 153px 0;
+}
+.hero-heading {
+    color: #FFF;
+    font-family: "Space Mono";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    padding-left: 135px;
+}
+.hero-p {
+    color: #FFF;
+    font-family: "Lexend Deca";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    width: 405px;
+    margin-left: 260px;
+    margin-top: 40px;
+}
+.hero-content {
+    padding-bottom: 145px;
+}
+.instruction-list {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin-left: 110px;
+}
+.instruction-heading {
+    color: #495567;
+    font-family: "Space Mono";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.071px;
+    margin-top: 40px;
+}
+.instruction-p {
+    color: #939CAA;
+    font-family: "Lexend Deca";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 350px;
+    margin-top: 27px;
+}
+.line {
+    position: relative;
+    top: 63px;
+    right: 102px;
+    z-index: -1;
+}
+.facility-img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+.facility-content {
+    display: flex;
+    margin-left: 110px;
+    gap: 200px;
+}
+.facility-heading {
+    color: #495567;
+    font-family: "Space Mono";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+    width: 445px;
+    padding-top: 60px;
+}
+.facility-p {
+    color: #939CAA;
+    font-family: "Lexend Deca";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    width: 445px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+.facilities {
+    padding-top: 180px;
+}
+.download-heading {
+    color: #495567;
+    font-family: "Space Mono";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.893px;
+}
+.download-p {
+    color: #495567;
+    font-family: "Space Mono";
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: -0.446px;
+}
+.sign-up__Page {
+    background: #495567;
+    padding: 120px 0;
+}
+.sing-up__heading {
+    color: #FFF;
+    font-family: "Space Mono";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 100% */
+    letter-spacing: -2.143px;
+    width: 415px;
+    margin-left: 110px;
+}
+.sign-up__content {
+    display: flex;
+    gap: 336px;
+}
+.download-Apps {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+.sign-up__App {
+    border-radius: 4px;
+    background: #E5ECF4;
+    border: none;
+    width: 182px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.download-icon {
+    margin-left: 16px;
+    margin-right: 11px;
+}
+.footer {
+    padding: 35px 0;
+    background: #333A44;
+}
+
+.footer-logo {
+    margin-left: 110px;
+}
+
+.footer-list {
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+    margin-left: 58px;
+    padding-top: 8px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #939CAA;
+    font-family: "Space Mono";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.footer-link:hover {
+    color: #FCB72B;
+    transition: 0.5s ease;
+}
+
+.footer-content {
+    display: flex;
+}
+.footer-icons {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 65px;
+}
+.hero__arrow-line {
+    position: relative;
+    left: 520px;
+    bottom: 298px;
+}
+.hero-circles {
+    position: relative;
+    bottom: 305px;
+    left: 1225px;
+}
+.facility-arrow {
+    position: relative;
+    bottom: 130px;
+    left: 640px;
+}
+
+.facility-arrow2 {
+    position: relative;
+    top: 145px;
+    right: 820px;
+}
+
+
+.facility-arrow3 {
+    position: relative;
+    top: 214px;
+    left: 978px;
+}
+.for-background  {
+    background-image: url(./Images-For-Position/Facility-circle.svg);
+    background-repeat: no-repeat;
+    background-position-x: 1100px;
+    background-position-y: -30px;
+}
+
+.sign-up__Page {
+    background-image: url(./Images-For-Position/footer-circles.svg);
+    background-repeat: no-repeat;
+    background-position-y: 180px;
+    background-position-x: 510px;
+}
+
+
+@media (max-width: 768px) {
+    .logo-site {
+        margin-left: 39px;
+    }
+    .nav-list {
+        margin-left: 58px;
+    }
+    .hero__arrow-line {
+        display: none;
+    }
+    .hero-circles {
+        display: none;
+    }
+    .hero-line {
+        display: none;
+    }
+    .hero {
+        background-image: url(./img-Tablet/Hero.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .hero-heading {
+        text-align: center;
+        padding-left: 0;
+    }
+    .hero-p {
+        width: 573px;
+        margin-left: 0;
+        margin-top: 27px;
+        text-align: center;
+        padding-left: 140px;
+    }
+    .get-btn {
+        margin: 0 auto;
+    }
+    .instruction-list {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+    .line {
+        display: none;
+    }
+    .instruction-icon {
+        padding-left: 100px;
+    }
+    .facility-arrow {
+        display: none;
+    }
+    .facility-arrow2 {
+        display: none;
+    }
+    .facility-arrow3 {
+        display: none;
+    }
+    .facility-content {
+        flex-direction: column-reverse;
+    }
+    .for-responsive {
+        flex-direction: column;
+    }
+    .facility-content {
+        margin-top: 150px;
+    }
+    .sign-up__Page {
+        background-image: none;
+    }
+    .sign-up__content {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .download-Apps {
+        margin: 0 auto;
+    }
+    .sing-up__heading {
+        width: 457px;
+        text-align: center;
+    }
+    .footer-logo {
+        margin-left: 20px;
+    }
+    .footer-icons {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 650px) {
+    .nav-list {
+        display: none;
+    }
+    .footer-list {
+        display: none;
+    }
+    .get-btn {
+        display: none;
+    }
+    .logo-site {
+        margin: 0 auto;
+    }
+    .menu-btn {
+        display: block;
+        border: none;
+        background-color: transparent;
+    }
+    .sing-up__heading {
+        margin-left: 20px;
+        text-align: center;
+        font-size: 32px;
+        letter-spacing: -1.429px;
+    }
+}
